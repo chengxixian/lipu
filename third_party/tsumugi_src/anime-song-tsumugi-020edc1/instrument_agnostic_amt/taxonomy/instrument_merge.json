@@ -1,0 +1,1757 @@
+{
+  "source_report_dir": "reports/lmd_filter_burst_probe",
+  "style": "fine_split_for_common_timbrally_distinct_classes",
+  "labels": {
+    "drums": {
+      "decision": "keep_separate",
+      "description": "Percussion channel.",
+      "song_group_count": 20482,
+      "midi_file_count": 20482,
+      "note_count": 39893851,
+      "part_count": 33859,
+      "members": [
+        {
+          "instrument_key": "drums",
+          "program_number": null,
+          "instrument_name": "Drums",
+          "family": "Drums",
+          "song_group_count": 20482,
+          "midi_file_count": 20482,
+          "note_count": 39893851,
+          "part_count": 33859
+        }
+      ]
+    },
+    "piano": {
+      "decision": "keep_separate",
+      "description": "Piano-family bucket including acoustic, bright, and honky-tonk piano.",
+      "song_group_count": 12073,
+      "midi_file_count": 12073,
+      "note_count": 9673993,
+      "part_count": 15837,
+      "members": [
+        {
+          "instrument_key": "0",
+          "program_number": 0,
+          "instrument_name": "Acoustic Grand Piano",
+          "family": "Piano",
+          "song_group_count": 8957,
+          "midi_file_count": 8957,
+          "note_count": 6738843,
+          "part_count": 11922
+        },
+        {
+          "instrument_key": "1",
+          "program_number": 1,
+          "instrument_name": "Bright Acoustic Piano",
+          "family": "Piano",
+          "song_group_count": 3022,
+          "midi_file_count": 3022,
+          "note_count": 2584462,
+          "part_count": 3333
+        },
+        {
+          "instrument_key": "3",
+          "program_number": 3,
+          "instrument_name": "Honky-tonk Piano",
+          "family": "Piano",
+          "song_group_count": 537,
+          "midi_file_count": 537,
+          "note_count": 350688,
+          "part_count": 582
+        }
+      ]
+    },
+    "electric_piano": {
+      "decision": "keep_separate",
+      "description": "Electric/electro-mechanical piano bucket, including electric grand piano.",
+      "song_group_count": 4439,
+      "midi_file_count": 4439,
+      "note_count": 3761657,
+      "part_count": 6345,
+      "members": [
+        {
+          "instrument_key": "4",
+          "program_number": 4,
+          "instrument_name": "Electric Piano 1",
+          "family": "Piano",
+          "song_group_count": 2572,
+          "midi_file_count": 2572,
+          "note_count": 1496854,
+          "part_count": 2790
+        },
+        {
+          "instrument_key": "5",
+          "program_number": 5,
+          "instrument_name": "Electric Piano 2",
+          "family": "Piano",
+          "song_group_count": 2114,
+          "midi_file_count": 2114,
+          "note_count": 1291560,
+          "part_count": 2257
+        },
+        {
+          "instrument_key": "2",
+          "program_number": 2,
+          "instrument_name": "Electric Grand Piano",
+          "family": "Piano",
+          "song_group_count": 1198,
+          "midi_file_count": 1198,
+          "note_count": 973243,
+          "part_count": 1298
+        }
+      ]
+    },
+    "plucked_keyboard": {
+      "decision": "keep_separate",
+      "description": "Harpsichord and clavinet.",
+      "song_group_count": 1500,
+      "midi_file_count": 1500,
+      "note_count": 1035233,
+      "part_count": 1718,
+      "members": [
+        {
+          "instrument_key": "6",
+          "program_number": 6,
+          "instrument_name": "Harpsichord",
+          "family": "Piano",
+          "song_group_count": 699,
+          "midi_file_count": 699,
+          "note_count": 431424,
+          "part_count": 772
+        },
+        {
+          "instrument_key": "7",
+          "program_number": 7,
+          "instrument_name": "Clavinet",
+          "family": "Piano",
+          "song_group_count": 853,
+          "midi_file_count": 853,
+          "note_count": 603809,
+          "part_count": 946
+        }
+      ]
+    },
+    "chromatic_percussion": {
+      "decision": "merge_coarse",
+      "description": "Thin family; keep coarse for now.",
+      "song_group_count": 3548,
+      "midi_file_count": 3548,
+      "note_count": 1205686,
+      "part_count": 4158,
+      "members": [
+        {
+          "instrument_key": "8",
+          "program_number": 8,
+          "instrument_name": "Celesta",
+          "family": "Chromatic Percussion",
+          "song_group_count": 351,
+          "midi_file_count": 351,
+          "note_count": 99777,
+          "part_count": 354
+        },
+        {
+          "instrument_key": "9",
+          "program_number": 9,
+          "instrument_name": "Glockenspiel",
+          "family": "Chromatic Percussion",
+          "song_group_count": 447,
+          "midi_file_count": 447,
+          "note_count": 62278,
+          "part_count": 461
+        },
+        {
+          "instrument_key": "10",
+          "program_number": 10,
+          "instrument_name": "Music Box",
+          "family": "Chromatic Percussion",
+          "song_group_count": 416,
+          "midi_file_count": 416,
+          "note_count": 93862,
+          "part_count": 424
+        },
+        {
+          "instrument_key": "11",
+          "program_number": 11,
+          "instrument_name": "Vibraphone",
+          "family": "Chromatic Percussion",
+          "song_group_count": 1683,
+          "midi_file_count": 1683,
+          "note_count": 522257,
+          "part_count": 1737
+        },
+        {
+          "instrument_key": "12",
+          "program_number": 12,
+          "instrument_name": "Marimba",
+          "family": "Chromatic Percussion",
+          "song_group_count": 483,
+          "midi_file_count": 483,
+          "note_count": 239653,
+          "part_count": 526
+        },
+        {
+          "instrument_key": "13",
+          "program_number": 13,
+          "instrument_name": "Xylophone",
+          "family": "Chromatic Percussion",
+          "song_group_count": 191,
+          "midi_file_count": 191,
+          "note_count": 121223,
+          "part_count": 197
+        },
+        {
+          "instrument_key": "14",
+          "program_number": 14,
+          "instrument_name": "Tubular Bells",
+          "family": "Chromatic Percussion",
+          "song_group_count": 356,
+          "midi_file_count": 356,
+          "note_count": 23761,
+          "part_count": 359
+        },
+        {
+          "instrument_key": "15",
+          "program_number": 15,
+          "instrument_name": "Dulcimer",
+          "family": "Chromatic Percussion",
+          "song_group_count": 93,
+          "midi_file_count": 93,
+          "note_count": 42875,
+          "part_count": 100
+        }
+      ]
+    },
+    "organ": {
+      "decision": "keep_separate",
+      "description": "Main organ timbres.",
+      "song_group_count": 4661,
+      "midi_file_count": 4661,
+      "note_count": 2137550,
+      "part_count": 5680,
+      "members": [
+        {
+          "instrument_key": "16",
+          "program_number": 16,
+          "instrument_name": "Drawbar Organ",
+          "family": "Organ",
+          "song_group_count": 1161,
+          "midi_file_count": 1161,
+          "note_count": 437749,
+          "part_count": 1238
+        },
+        {
+          "instrument_key": "17",
+          "program_number": 17,
+          "instrument_name": "Percussive Organ",
+          "family": "Organ",
+          "song_group_count": 1395,
+          "midi_file_count": 1395,
+          "note_count": 719154,
+          "part_count": 1529
+        },
+        {
+          "instrument_key": "18",
+          "program_number": 18,
+          "instrument_name": "Rock Organ",
+          "family": "Organ",
+          "song_group_count": 2267,
+          "midi_file_count": 2267,
+          "note_count": 846779,
+          "part_count": 2446
+        },
+        {
+          "instrument_key": "19",
+          "program_number": 19,
+          "instrument_name": "Church Organ",
+          "family": "Organ",
+          "song_group_count": 281,
+          "midi_file_count": 281,
+          "note_count": 101412,
+          "part_count": 317
+        },
+        {
+          "instrument_key": "20",
+          "program_number": 20,
+          "instrument_name": "Reed Organ",
+          "family": "Organ",
+          "song_group_count": 138,
+          "midi_file_count": 138,
+          "note_count": 32456,
+          "part_count": 150
+        }
+      ]
+    },
+    "accordion_family": {
+      "decision": "optional_split",
+      "description": "Accordion family.",
+      "song_group_count": 758,
+      "midi_file_count": 758,
+      "note_count": 432010,
+      "part_count": 918,
+      "members": [
+        {
+          "instrument_key": "21",
+          "program_number": 21,
+          "instrument_name": "Accordion",
+          "family": "Organ",
+          "song_group_count": 585,
+          "midi_file_count": 585,
+          "note_count": 309305,
+          "part_count": 660
+        },
+        {
+          "instrument_key": "23",
+          "program_number": 23,
+          "instrument_name": "Tango Accordion",
+          "family": "Organ",
+          "song_group_count": 216,
+          "midi_file_count": 216,
+          "note_count": 122705,
+          "part_count": 258
+        }
+      ]
+    },
+    "harmonica": {
+      "decision": "optional_split",
+      "description": "Separate only if you want a dedicated reed-like class.",
+      "song_group_count": 874,
+      "midi_file_count": 874,
+      "note_count": 199724,
+      "part_count": 946,
+      "members": [
+        {
+          "instrument_key": "22",
+          "program_number": 22,
+          "instrument_name": "Harmonica",
+          "family": "Organ",
+          "song_group_count": 874,
+          "midi_file_count": 874,
+          "note_count": 199724,
+          "part_count": 946
+        }
+      ]
+    },
+    "acoustic_guitar": {
+      "decision": "keep_separate",
+      "description": "Acoustic guitar bucket combining nylon and steel string acoustic guitars.",
+      "song_group_count": 9651,
+      "midi_file_count": 9651,
+      "note_count": 15925247,
+      "part_count": 14638,
+      "members": [
+        {
+          "instrument_key": "24",
+          "program_number": 24,
+          "instrument_name": "Acoustic Guitar (nylon)",
+          "family": "Guitar",
+          "song_group_count": 3638,
+          "midi_file_count": 3638,
+          "note_count": 3369122,
+          "part_count": 4403
+        },
+        {
+          "instrument_key": "25",
+          "program_number": 25,
+          "instrument_name": "Acoustic Guitar (steel)",
+          "family": "Guitar",
+          "song_group_count": 7674,
+          "midi_file_count": 7674,
+          "note_count": 12556125,
+          "part_count": 10235
+        }
+      ]
+    },
+    "electric_guitar_clean": {
+      "decision": "keep_separate",
+      "description": "Clean and jazz electric guitar bucket.",
+      "song_group_count": 8761,
+      "midi_file_count": 8761,
+      "note_count": 6423268,
+      "part_count": 12367,
+      "members": [
+        {
+          "instrument_key": "26",
+          "program_number": 26,
+          "instrument_name": "Electric Guitar (jazz)",
+          "family": "Guitar",
+          "song_group_count": 4073,
+          "midi_file_count": 4073,
+          "note_count": 1883642,
+          "part_count": 4953
+        },
+        {
+          "instrument_key": "27",
+          "program_number": 27,
+          "instrument_name": "Electric Guitar (clean)",
+          "family": "Guitar",
+          "song_group_count": 6077,
+          "midi_file_count": 6077,
+          "note_count": 4539626,
+          "part_count": 7414
+        }
+      ]
+    },
+    "electric_guitar_muted": {
+      "decision": "keep_separate",
+      "description": "Muted electric guitar has clearly different articulation.",
+      "song_group_count": 3465,
+      "midi_file_count": 3465,
+      "note_count": 2461158,
+      "part_count": 3853,
+      "members": [
+        {
+          "instrument_key": "28",
+          "program_number": 28,
+          "instrument_name": "Electric Guitar (muted)",
+          "family": "Guitar",
+          "song_group_count": 3465,
+          "midi_file_count": 3465,
+          "note_count": 2461158,
+          "part_count": 3853
+        }
+      ]
+    },
+    "distorted_guitar": {
+      "decision": "keep_separate",
+      "description": "Overdriven and distortion electric guitar bucket.",
+      "song_group_count": 7104,
+      "midi_file_count": 7104,
+      "note_count": 6137449,
+      "part_count": 12964,
+      "members": [
+        {
+          "instrument_key": "29",
+          "program_number": 29,
+          "instrument_name": "Overdriven Guitar",
+          "family": "Guitar",
+          "song_group_count": 4379,
+          "midi_file_count": 4379,
+          "note_count": 2658651,
+          "part_count": 5991
+        },
+        {
+          "instrument_key": "30",
+          "program_number": 30,
+          "instrument_name": "Distortion Guitar",
+          "family": "Guitar",
+          "song_group_count": 4681,
+          "midi_file_count": 4681,
+          "note_count": 3478798,
+          "part_count": 6973
+        }
+      ]
+    },
+    "guitar_harmonics": {
+      "decision": "optional_split",
+      "description": "Very small special-case guitar class.",
+      "song_group_count": 509,
+      "midi_file_count": 509,
+      "note_count": 57672,
+      "part_count": 546,
+      "members": [
+        {
+          "instrument_key": "31",
+          "program_number": 31,
+          "instrument_name": "Guitar Harmonics",
+          "family": "Guitar",
+          "song_group_count": 509,
+          "midi_file_count": 509,
+          "note_count": 57672,
+          "part_count": 546
+        }
+      ]
+    },
+    "acoustic_bass": {
+      "decision": "keep_separate",
+      "description": "Upright/acoustic bass.",
+      "song_group_count": 2856,
+      "midi_file_count": 2856,
+      "note_count": 978765,
+      "part_count": 2909,
+      "members": [
+        {
+          "instrument_key": "32",
+          "program_number": 32,
+          "instrument_name": "Acoustic Bass",
+          "family": "Bass",
+          "song_group_count": 2856,
+          "midi_file_count": 2856,
+          "note_count": 978765,
+          "part_count": 2909
+        }
+      ]
+    },
+    "electric_bass": {
+      "decision": "keep_separate",
+      "description": "Finger/pick/fretless electric bass bucket.",
+      "song_group_count": 15007,
+      "midi_file_count": 15007,
+      "note_count": 7133781,
+      "part_count": 16097,
+      "members": [
+        {
+          "instrument_key": "33",
+          "program_number": 33,
+          "instrument_name": "Electric Bass (finger)",
+          "family": "Bass",
+          "song_group_count": 8949,
+          "midi_file_count": 8949,
+          "note_count": 4286032,
+          "part_count": 9174
+        },
+        {
+          "instrument_key": "34",
+          "program_number": 34,
+          "instrument_name": "Electric Bass (pick)",
+          "family": "Bass",
+          "song_group_count": 1539,
+          "midi_file_count": 1539,
+          "note_count": 941509,
+          "part_count": 1683
+        },
+        {
+          "instrument_key": "35",
+          "program_number": 35,
+          "instrument_name": "Fretless Bass",
+          "family": "Bass",
+          "song_group_count": 5128,
+          "midi_file_count": 5128,
+          "note_count": 1906240,
+          "part_count": 5240
+        }
+      ]
+    },
+    "slap_bass": {
+      "decision": "optional_split",
+      "description": "Distinct articulation but relatively small.",
+      "song_group_count": 890,
+      "midi_file_count": 890,
+      "note_count": 452039,
+      "part_count": 943,
+      "members": [
+        {
+          "instrument_key": "36",
+          "program_number": 36,
+          "instrument_name": "Slap Bass 1",
+          "family": "Bass",
+          "song_group_count": 534,
+          "midi_file_count": 534,
+          "note_count": 265367,
+          "part_count": 549
+        },
+        {
+          "instrument_key": "37",
+          "program_number": 37,
+          "instrument_name": "Slap Bass 2",
+          "family": "Bass",
+          "song_group_count": 386,
+          "midi_file_count": 386,
+          "note_count": 186672,
+          "part_count": 394
+        }
+      ]
+    },
+    "synth_bass": {
+      "decision": "keep_separate",
+      "description": "Synth bass.",
+      "song_group_count": 3525,
+      "midi_file_count": 3525,
+      "note_count": 2756791,
+      "part_count": 4280,
+      "members": [
+        {
+          "instrument_key": "38",
+          "program_number": 38,
+          "instrument_name": "Synth Bass 1",
+          "family": "Bass",
+          "song_group_count": 2197,
+          "midi_file_count": 2197,
+          "note_count": 1729391,
+          "part_count": 2563
+        },
+        {
+          "instrument_key": "39",
+          "program_number": 39,
+          "instrument_name": "Synth Bass 2",
+          "family": "Bass",
+          "song_group_count": 1603,
+          "midi_file_count": 1603,
+          "note_count": 1027400,
+          "part_count": 1717
+        }
+      ]
+    },
+    "strings": {
+      "decision": "merge_coarse",
+      "description": "Main bowed, ensemble, and synth string bucket without pizzicato, harp, or timpani.",
+      "song_group_count": 13242,
+      "midi_file_count": 13242,
+      "note_count": 5125859,
+      "part_count": 22178,
+      "members": [
+        {
+          "instrument_key": "40",
+          "program_number": 40,
+          "instrument_name": "Violin",
+          "family": "Strings",
+          "song_group_count": 831,
+          "midi_file_count": 831,
+          "note_count": 200976,
+          "part_count": 929
+        },
+        {
+          "instrument_key": "41",
+          "program_number": 41,
+          "instrument_name": "Viola",
+          "family": "Strings",
+          "song_group_count": 314,
+          "midi_file_count": 314,
+          "note_count": 74001,
+          "part_count": 337
+        },
+        {
+          "instrument_key": "42",
+          "program_number": 42,
+          "instrument_name": "Cello",
+          "family": "Strings",
+          "song_group_count": 436,
+          "midi_file_count": 436,
+          "note_count": 80975,
+          "part_count": 465
+        },
+        {
+          "instrument_key": "43",
+          "program_number": 43,
+          "instrument_name": "Contrabass",
+          "family": "Strings",
+          "song_group_count": 176,
+          "midi_file_count": 176,
+          "note_count": 26488,
+          "part_count": 186
+        },
+        {
+          "instrument_key": "44",
+          "program_number": 44,
+          "instrument_name": "Tremolo Strings",
+          "family": "Strings",
+          "song_group_count": 470,
+          "midi_file_count": 470,
+          "note_count": 78444,
+          "part_count": 511
+        },
+        {
+          "instrument_key": "48",
+          "program_number": 48,
+          "instrument_name": "String Ensemble 1",
+          "family": "Ensemble",
+          "song_group_count": 7280,
+          "midi_file_count": 7280,
+          "note_count": 2164673,
+          "part_count": 8941
+        },
+        {
+          "instrument_key": "49",
+          "program_number": 49,
+          "instrument_name": "String Ensemble 2",
+          "family": "Ensemble",
+          "song_group_count": 4820,
+          "midi_file_count": 4820,
+          "note_count": 1205212,
+          "part_count": 5682
+        },
+        {
+          "instrument_key": "50",
+          "program_number": 50,
+          "instrument_name": "Synth Strings 1",
+          "family": "Ensemble",
+          "song_group_count": 3632,
+          "midi_file_count": 3632,
+          "note_count": 1086702,
+          "part_count": 4056
+        },
+        {
+          "instrument_key": "51",
+          "program_number": 51,
+          "instrument_name": "Synth Strings 2",
+          "family": "Ensemble",
+          "song_group_count": 974,
+          "midi_file_count": 974,
+          "note_count": 208388,
+          "part_count": 1071
+        }
+      ]
+    },
+    "pizzicato_strings": {
+      "decision": "keep_separate",
+      "description": "Pizzicato strings have distinct articulation and stay out of the main strings bucket.",
+      "song_group_count": 694,
+      "midi_file_count": 694,
+      "note_count": 347737,
+      "part_count": 819,
+      "members": [
+        {
+          "instrument_key": "45",
+          "program_number": 45,
+          "instrument_name": "Pizzicato Strings",
+          "family": "Strings",
+          "song_group_count": 694,
+          "midi_file_count": 694,
+          "note_count": 347737,
+          "part_count": 819
+        }
+      ]
+    },
+    "orchestral_harp": {
+      "decision": "keep_separate",
+      "description": "Harp is plucked and timbrally distinct from bowed or section strings.",
+      "song_group_count": 778,
+      "midi_file_count": 778,
+      "note_count": 226132,
+      "part_count": 840,
+      "members": [
+        {
+          "instrument_key": "46",
+          "program_number": 46,
+          "instrument_name": "Orchestral Harp",
+          "family": "Strings",
+          "song_group_count": 778,
+          "midi_file_count": 778,
+          "note_count": 226132,
+          "part_count": 840
+        }
+      ]
+    },
+    "timpani": {
+      "decision": "keep_separate",
+      "description": "Timpani is percussion and should not be merged into the strings bucket.",
+      "song_group_count": 655,
+      "midi_file_count": 655,
+      "note_count": 94761,
+      "part_count": 669,
+      "members": [
+        {
+          "instrument_key": "47",
+          "program_number": 47,
+          "instrument_name": "Timpani",
+          "family": "Strings",
+          "song_group_count": 655,
+          "midi_file_count": 655,
+          "note_count": 94761,
+          "part_count": 669
+        }
+      ]
+    },
+    "choir": {
+      "decision": "keep_separate",
+      "description": "Choir/vocal ensemble.",
+      "song_group_count": 8700,
+      "midi_file_count": 8700,
+      "note_count": 2386706,
+      "part_count": 11628,
+      "members": [
+        {
+          "instrument_key": "52",
+          "program_number": 52,
+          "instrument_name": "Choir Aahs",
+          "family": "Ensemble",
+          "song_group_count": 5578,
+          "midi_file_count": 5578,
+          "note_count": 1164246,
+          "part_count": 6194
+        },
+        {
+          "instrument_key": "53",
+          "program_number": 53,
+          "instrument_name": "Voice Oohs",
+          "family": "Ensemble",
+          "song_group_count": 3049,
+          "midi_file_count": 3049,
+          "note_count": 870566,
+          "part_count": 3468
+        },
+        {
+          "instrument_key": "54",
+          "program_number": 54,
+          "instrument_name": "Synth Choir",
+          "family": "Ensemble",
+          "song_group_count": 1776,
+          "midi_file_count": 1776,
+          "note_count": 351894,
+          "part_count": 1966
+        }
+      ]
+    },
+    "orchestra_hit": {
+      "decision": "optional_split",
+      "description": "Small but very distinct stab-like class.",
+      "song_group_count": 542,
+      "midi_file_count": 542,
+      "note_count": 38394,
+      "part_count": 554,
+      "members": [
+        {
+          "instrument_key": "55",
+          "program_number": 55,
+          "instrument_name": "Orchestra Hit",
+          "family": "Ensemble",
+          "song_group_count": 542,
+          "midi_file_count": 542,
+          "note_count": 38394,
+          "part_count": 554
+        }
+      ]
+    },
+    "brass": {
+      "decision": "merge_coarse",
+      "description": "Merged acoustic and synth brass bucket.",
+      "song_group_count": 6391,
+      "midi_file_count": 6391,
+      "note_count": 2757124,
+      "part_count": 10253,
+      "members": [
+        {
+          "instrument_key": "56",
+          "program_number": 56,
+          "instrument_name": "Trumpet",
+          "family": "Brass",
+          "song_group_count": 1624,
+          "midi_file_count": 1624,
+          "note_count": 397744,
+          "part_count": 1908
+        },
+        {
+          "instrument_key": "57",
+          "program_number": 57,
+          "instrument_name": "Trombone",
+          "family": "Brass",
+          "song_group_count": 1253,
+          "midi_file_count": 1253,
+          "note_count": 277049,
+          "part_count": 1452
+        },
+        {
+          "instrument_key": "58",
+          "program_number": 58,
+          "instrument_name": "Tuba",
+          "family": "Brass",
+          "song_group_count": 286,
+          "midi_file_count": 286,
+          "note_count": 51859,
+          "part_count": 312
+        },
+        {
+          "instrument_key": "59",
+          "program_number": 59,
+          "instrument_name": "Muted Trumpet",
+          "family": "Brass",
+          "song_group_count": 302,
+          "midi_file_count": 302,
+          "note_count": 44069,
+          "part_count": 386
+        },
+        {
+          "instrument_key": "60",
+          "program_number": 60,
+          "instrument_name": "French Horn",
+          "family": "Brass",
+          "song_group_count": 1025,
+          "midi_file_count": 1025,
+          "note_count": 142564,
+          "part_count": 1084
+        },
+        {
+          "instrument_key": "61",
+          "program_number": 61,
+          "instrument_name": "Brass Section",
+          "family": "Brass",
+          "song_group_count": 2291,
+          "midi_file_count": 2291,
+          "note_count": 687008,
+          "part_count": 2565
+        },
+        {
+          "instrument_key": "62",
+          "program_number": 62,
+          "instrument_name": "Synth Brass 1",
+          "family": "Brass",
+          "song_group_count": 1561,
+          "midi_file_count": 1561,
+          "note_count": 915746,
+          "part_count": 1760
+        },
+        {
+          "instrument_key": "63",
+          "program_number": 63,
+          "instrument_name": "Synth Brass 2",
+          "family": "Brass",
+          "song_group_count": 725,
+          "midi_file_count": 725,
+          "note_count": 241085,
+          "part_count": 786
+        }
+      ]
+    },
+    "sax": {
+      "decision": "keep_separate",
+      "description": "Sax family.",
+      "song_group_count": 4798,
+      "midi_file_count": 4798,
+      "note_count": 1554874,
+      "part_count": 6136,
+      "members": [
+        {
+          "instrument_key": "64",
+          "program_number": 64,
+          "instrument_name": "Soprano Sax",
+          "family": "Reed",
+          "song_group_count": 582,
+          "midi_file_count": 582,
+          "note_count": 157332,
+          "part_count": 635
+        },
+        {
+          "instrument_key": "65",
+          "program_number": 65,
+          "instrument_name": "Alto Sax",
+          "family": "Reed",
+          "song_group_count": 2649,
+          "midi_file_count": 2649,
+          "note_count": 774337,
+          "part_count": 2948
+        },
+        {
+          "instrument_key": "66",
+          "program_number": 66,
+          "instrument_name": "Tenor Sax",
+          "family": "Reed",
+          "song_group_count": 1793,
+          "midi_file_count": 1793,
+          "note_count": 502390,
+          "part_count": 1975
+        },
+        {
+          "instrument_key": "67",
+          "program_number": 67,
+          "instrument_name": "Baritone Sax",
+          "family": "Reed",
+          "song_group_count": 554,
+          "midi_file_count": 554,
+          "note_count": 120815,
+          "part_count": 578
+        }
+      ]
+    },
+    "orchestral_woodwind": {
+      "decision": "keep_separate",
+      "description": "Oboe/English Horn/Bassoon/Clarinet bucket.",
+      "song_group_count": 1929,
+      "midi_file_count": 1929,
+      "note_count": 497124,
+      "part_count": 2238,
+      "members": [
+        {
+          "instrument_key": "68",
+          "program_number": 68,
+          "instrument_name": "Oboe",
+          "family": "Reed",
+          "song_group_count": 909,
+          "midi_file_count": 909,
+          "note_count": 178200,
+          "part_count": 955
+        },
+        {
+          "instrument_key": "69",
+          "program_number": 69,
+          "instrument_name": "English Horn",
+          "family": "Reed",
+          "song_group_count": 166,
+          "midi_file_count": 166,
+          "note_count": 29658,
+          "part_count": 173
+        },
+        {
+          "instrument_key": "70",
+          "program_number": 70,
+          "instrument_name": "Bassoon",
+          "family": "Reed",
+          "song_group_count": 193,
+          "midi_file_count": 193,
+          "note_count": 49619,
+          "part_count": 208
+        },
+        {
+          "instrument_key": "71",
+          "program_number": 71,
+          "instrument_name": "Clarinet",
+          "family": "Reed",
+          "song_group_count": 826,
+          "midi_file_count": 826,
+          "note_count": 239647,
+          "part_count": 902
+        }
+      ]
+    },
+    "flute_pipe": {
+      "decision": "keep_separate",
+      "description": "Flute/pipe family.",
+      "song_group_count": 5277,
+      "midi_file_count": 5277,
+      "note_count": 1650156,
+      "part_count": 6489,
+      "members": [
+        {
+          "instrument_key": "72",
+          "program_number": 72,
+          "instrument_name": "Piccolo",
+          "family": "Pipe",
+          "song_group_count": 442,
+          "midi_file_count": 442,
+          "note_count": 108398,
+          "part_count": 486
+        },
+        {
+          "instrument_key": "73",
+          "program_number": 73,
+          "instrument_name": "Flute",
+          "family": "Pipe",
+          "song_group_count": 2683,
+          "midi_file_count": 2683,
+          "note_count": 807407,
+          "part_count": 2925
+        },
+        {
+          "instrument_key": "74",
+          "program_number": 74,
+          "instrument_name": "Recorder",
+          "family": "Pipe",
+          "song_group_count": 318,
+          "midi_file_count": 318,
+          "note_count": 65863,
+          "part_count": 357
+        },
+        {
+          "instrument_key": "75",
+          "program_number": 75,
+          "instrument_name": "Pan Flute",
+          "family": "Pipe",
+          "song_group_count": 1191,
+          "midi_file_count": 1191,
+          "note_count": 358636,
+          "part_count": 1288
+        },
+        {
+          "instrument_key": "76",
+          "program_number": 76,
+          "instrument_name": "Blown bottle",
+          "family": "Pipe",
+          "song_group_count": 141,
+          "midi_file_count": 141,
+          "note_count": 26984,
+          "part_count": 164
+        },
+        {
+          "instrument_key": "77",
+          "program_number": 77,
+          "instrument_name": "Shakuhachi",
+          "family": "Pipe",
+          "song_group_count": 275,
+          "midi_file_count": 275,
+          "note_count": 70433,
+          "part_count": 289
+        },
+        {
+          "instrument_key": "78",
+          "program_number": 78,
+          "instrument_name": "Whistle",
+          "family": "Pipe",
+          "song_group_count": 474,
+          "midi_file_count": 474,
+          "note_count": 113358,
+          "part_count": 514
+        },
+        {
+          "instrument_key": "79",
+          "program_number": 79,
+          "instrument_name": "Ocarina",
+          "family": "Pipe",
+          "song_group_count": 422,
+          "midi_file_count": 422,
+          "note_count": 99077,
+          "part_count": 466
+        }
+      ]
+    },
+    "synth_lead": {
+      "decision": "keep_separate",
+      "description": "Synth leads kept coarse within family.",
+      "song_group_count": 5527,
+      "midi_file_count": 5527,
+      "note_count": 3593015,
+      "part_count": 9135,
+      "members": [
+        {
+          "instrument_key": "80",
+          "program_number": 80,
+          "instrument_name": "Lead 1 (square)",
+          "family": "Synth Lead",
+          "song_group_count": 1433,
+          "midi_file_count": 1433,
+          "note_count": 543681,
+          "part_count": 1716
+        },
+        {
+          "instrument_key": "81",
+          "program_number": 81,
+          "instrument_name": "Lead 2 (sawtooth)",
+          "family": "Synth Lead",
+          "song_group_count": 2521,
+          "midi_file_count": 2521,
+          "note_count": 1522309,
+          "part_count": 3397
+        },
+        {
+          "instrument_key": "82",
+          "program_number": 82,
+          "instrument_name": "Lead 3 (calliope)",
+          "family": "Synth Lead",
+          "song_group_count": 943,
+          "midi_file_count": 943,
+          "note_count": 320813,
+          "part_count": 1026
+        },
+        {
+          "instrument_key": "83",
+          "program_number": 83,
+          "instrument_name": "Lead 4 chiff",
+          "family": "Synth Lead",
+          "song_group_count": 199,
+          "midi_file_count": 199,
+          "note_count": 65113,
+          "part_count": 226
+        },
+        {
+          "instrument_key": "84",
+          "program_number": 84,
+          "instrument_name": "Lead 5 (charang)",
+          "family": "Synth Lead",
+          "song_group_count": 507,
+          "midi_file_count": 507,
+          "note_count": 254042,
+          "part_count": 539
+        },
+        {
+          "instrument_key": "85",
+          "program_number": 85,
+          "instrument_name": "Lead 6 (voice)",
+          "family": "Synth Lead",
+          "song_group_count": 527,
+          "midi_file_count": 527,
+          "note_count": 129307,
+          "part_count": 618
+        },
+        {
+          "instrument_key": "86",
+          "program_number": 86,
+          "instrument_name": "Lead 7 (fifths)",
+          "family": "Synth Lead",
+          "song_group_count": 98,
+          "midi_file_count": 98,
+          "note_count": 17616,
+          "part_count": 104
+        },
+        {
+          "instrument_key": "87",
+          "program_number": 87,
+          "instrument_name": "Lead 8 (bass + lead)",
+          "family": "Synth Lead",
+          "song_group_count": 1332,
+          "midi_file_count": 1332,
+          "note_count": 740134,
+          "part_count": 1509
+        }
+      ]
+    },
+    "synth_pad": {
+      "decision": "keep_separate",
+      "description": "Synth pads kept coarse within family.",
+      "song_group_count": 5905,
+      "midi_file_count": 5905,
+      "note_count": 1682732,
+      "part_count": 8015,
+      "members": [
+        {
+          "instrument_key": "88",
+          "program_number": 88,
+          "instrument_name": "Pad 1 (new age)",
+          "family": "Synth Pad",
+          "song_group_count": 1347,
+          "midi_file_count": 1347,
+          "note_count": 282456,
+          "part_count": 1402
+        },
+        {
+          "instrument_key": "89",
+          "program_number": 89,
+          "instrument_name": "Pad 2 (warm)",
+          "family": "Synth Pad",
+          "song_group_count": 1901,
+          "midi_file_count": 1901,
+          "note_count": 399600,
+          "part_count": 1965
+        },
+        {
+          "instrument_key": "90",
+          "program_number": 90,
+          "instrument_name": "Pad 3 (polysynth)",
+          "family": "Synth Pad",
+          "song_group_count": 1195,
+          "midi_file_count": 1195,
+          "note_count": 465223,
+          "part_count": 1259
+        },
+        {
+          "instrument_key": "91",
+          "program_number": 91,
+          "instrument_name": "Pad 4 (choir)",
+          "family": "Synth Pad",
+          "song_group_count": 825,
+          "midi_file_count": 825,
+          "note_count": 181286,
+          "part_count": 896
+        },
+        {
+          "instrument_key": "92",
+          "program_number": 92,
+          "instrument_name": "Pad 5 (bowed)",
+          "family": "Synth Pad",
+          "song_group_count": 261,
+          "midi_file_count": 261,
+          "note_count": 40592,
+          "part_count": 271
+        },
+        {
+          "instrument_key": "93",
+          "program_number": 93,
+          "instrument_name": "Pad 6 (metallic)",
+          "family": "Synth Pad",
+          "song_group_count": 408,
+          "midi_file_count": 408,
+          "note_count": 43211,
+          "part_count": 444
+        },
+        {
+          "instrument_key": "94",
+          "program_number": 94,
+          "instrument_name": "Pad 7 (halo)",
+          "family": "Synth Pad",
+          "song_group_count": 710,
+          "midi_file_count": 710,
+          "note_count": 151870,
+          "part_count": 739
+        },
+        {
+          "instrument_key": "95",
+          "program_number": 95,
+          "instrument_name": "Pad 8 (sweep)",
+          "family": "Synth Pad",
+          "song_group_count": 994,
+          "midi_file_count": 994,
+          "note_count": 118494,
+          "part_count": 1039
+        }
+      ]
+    },
+    "synth_fx": {
+      "decision": "merge_coarse",
+      "description": "Semantically broad FX class.",
+      "song_group_count": 2589,
+      "midi_file_count": 2589,
+      "note_count": 673820,
+      "part_count": 3094,
+      "members": [
+        {
+          "instrument_key": "96",
+          "program_number": 96,
+          "instrument_name": "FX 1 (rain)",
+          "family": "Synth Effects",
+          "song_group_count": 215,
+          "midi_file_count": 215,
+          "note_count": 57202,
+          "part_count": 230
+        },
+        {
+          "instrument_key": "97",
+          "program_number": 97,
+          "instrument_name": "FX 2 (soundtrack)",
+          "family": "Synth Effects",
+          "song_group_count": 99,
+          "midi_file_count": 99,
+          "note_count": 8293,
+          "part_count": 103
+        },
+        {
+          "instrument_key": "98",
+          "program_number": 98,
+          "instrument_name": "FX 3 (crystal)",
+          "family": "Synth Effects",
+          "song_group_count": 278,
+          "midi_file_count": 278,
+          "note_count": 46730,
+          "part_count": 293
+        },
+        {
+          "instrument_key": "99",
+          "program_number": 99,
+          "instrument_name": "FX 4 (atmosphere)",
+          "family": "Synth Effects",
+          "song_group_count": 605,
+          "midi_file_count": 605,
+          "note_count": 227355,
+          "part_count": 702
+        },
+        {
+          "instrument_key": "100",
+          "program_number": 100,
+          "instrument_name": "FX 5 (brightness)",
+          "family": "Synth Effects",
+          "song_group_count": 885,
+          "midi_file_count": 885,
+          "note_count": 208583,
+          "part_count": 929
+        },
+        {
+          "instrument_key": "101",
+          "program_number": 101,
+          "instrument_name": "FX 6 (goblins)",
+          "family": "Synth Effects",
+          "song_group_count": 168,
+          "midi_file_count": 168,
+          "note_count": 12175,
+          "part_count": 179
+        },
+        {
+          "instrument_key": "102",
+          "program_number": 102,
+          "instrument_name": "FX 7 (echoes)",
+          "family": "Synth Effects",
+          "song_group_count": 378,
+          "midi_file_count": 378,
+          "note_count": 69885,
+          "part_count": 392
+        },
+        {
+          "instrument_key": "103",
+          "program_number": 103,
+          "instrument_name": "FX 8 (sci-fi)",
+          "family": "Synth Effects",
+          "song_group_count": 259,
+          "midi_file_count": 259,
+          "note_count": 43597,
+          "part_count": 266
+        }
+      ]
+    },
+    "ethnic": {
+      "decision": "merge_coarse",
+      "description": "Coarse ethnic bucket unless region-specific labels matter.",
+      "song_group_count": 1358,
+      "midi_file_count": 1358,
+      "note_count": 726245,
+      "part_count": 1680,
+      "members": [
+        {
+          "instrument_key": "104",
+          "program_number": 104,
+          "instrument_name": "Sitar",
+          "family": "Ethnic",
+          "song_group_count": 308,
+          "midi_file_count": 308,
+          "note_count": 55812,
+          "part_count": 321
+        },
+        {
+          "instrument_key": "105",
+          "program_number": 105,
+          "instrument_name": "Banjo",
+          "family": "Ethnic",
+          "song_group_count": 294,
+          "midi_file_count": 294,
+          "note_count": 269532,
+          "part_count": 333
+        },
+        {
+          "instrument_key": "106",
+          "program_number": 106,
+          "instrument_name": "Shamisen",
+          "family": "Ethnic",
+          "song_group_count": 163,
+          "midi_file_count": 163,
+          "note_count": 135706,
+          "part_count": 190
+        },
+        {
+          "instrument_key": "107",
+          "program_number": 107,
+          "instrument_name": "Koto",
+          "family": "Ethnic",
+          "song_group_count": 156,
+          "midi_file_count": 156,
+          "note_count": 51833,
+          "part_count": 175
+        },
+        {
+          "instrument_key": "108",
+          "program_number": 108,
+          "instrument_name": "Kalimba",
+          "family": "Ethnic",
+          "song_group_count": 181,
+          "midi_file_count": 181,
+          "note_count": 99616,
+          "part_count": 190
+        },
+        {
+          "instrument_key": "109",
+          "program_number": 109,
+          "instrument_name": "Bagpipe",
+          "family": "Ethnic",
+          "song_group_count": 79,
+          "midi_file_count": 79,
+          "note_count": 19003,
+          "part_count": 91
+        },
+        {
+          "instrument_key": "110",
+          "program_number": 110,
+          "instrument_name": "Fiddle",
+          "family": "Ethnic",
+          "song_group_count": 271,
+          "midi_file_count": 271,
+          "note_count": 75040,
+          "part_count": 301
+        },
+        {
+          "instrument_key": "111",
+          "program_number": 111,
+          "instrument_name": "Shanai",
+          "family": "Ethnic",
+          "song_group_count": 75,
+          "midi_file_count": 75,
+          "note_count": 19703,
+          "part_count": 79
+        }
+      ]
+    },
+    "percussive_fx": {
+      "decision": "merge_coarse",
+      "description": "Auxiliary percussive FX bucket.",
+      "song_group_count": 3450,
+      "midi_file_count": 3450,
+      "note_count": 403839,
+      "part_count": 4113,
+      "members": [
+        {
+          "instrument_key": "112",
+          "program_number": 112,
+          "instrument_name": "Tinkle Bell",
+          "family": "Percussive",
+          "song_group_count": 104,
+          "midi_file_count": 104,
+          "note_count": 13674,
+          "part_count": 104
+        },
+        {
+          "instrument_key": "113",
+          "program_number": 113,
+          "instrument_name": "Agogo",
+          "family": "Percussive",
+          "song_group_count": 134,
+          "midi_file_count": 134,
+          "note_count": 37724,
+          "part_count": 134
+        },
+        {
+          "instrument_key": "114",
+          "program_number": 114,
+          "instrument_name": "Steel Drums",
+          "family": "Percussive",
+          "song_group_count": 173,
+          "midi_file_count": 173,
+          "note_count": 81341,
+          "part_count": 190
+        },
+        {
+          "instrument_key": "115",
+          "program_number": 115,
+          "instrument_name": "Woodblock",
+          "family": "Percussive",
+          "song_group_count": 211,
+          "midi_file_count": 211,
+          "note_count": 71371,
+          "part_count": 213
+        },
+        {
+          "instrument_key": "116",
+          "program_number": 116,
+          "instrument_name": "Taiko Drum",
+          "family": "Percussive",
+          "song_group_count": 227,
+          "midi_file_count": 227,
+          "note_count": 30195,
+          "part_count": 235
+        },
+        {
+          "instrument_key": "117",
+          "program_number": 117,
+          "instrument_name": "Melodic Tom",
+          "family": "Percussive",
+          "song_group_count": 274,
+          "midi_file_count": 274,
+          "note_count": 29531,
+          "part_count": 278
+        },
+        {
+          "instrument_key": "118",
+          "program_number": 118,
+          "instrument_name": "Synth Drum",
+          "family": "Percussive",
+          "song_group_count": 557,
+          "midi_file_count": 557,
+          "note_count": 100956,
+          "part_count": 565
+        },
+        {
+          "instrument_key": "119",
+          "program_number": 119,
+          "instrument_name": "Reverse Cymbal",
+          "family": "Percussive",
+          "song_group_count": 2379,
+          "midi_file_count": 2379,
+          "note_count": 39047,
+          "part_count": 2394
+        }
+      ]
+    },
+    "sound_fx": {
+      "decision": "drop_candidate",
+      "description": "Very heterogeneous sound effects.",
+      "song_group_count": 2180,
+      "midi_file_count": 2180,
+      "note_count": 285994,
+      "part_count": 2934,
+      "members": [
+        {
+          "instrument_key": "120",
+          "program_number": 120,
+          "instrument_name": "Guitar Fret Noise",
+          "family": "Sound Effects",
+          "song_group_count": 479,
+          "midi_file_count": 479,
+          "note_count": 91223,
+          "part_count": 505
+        },
+        {
+          "instrument_key": "121",
+          "program_number": 121,
+          "instrument_name": "Breath Noise",
+          "family": "Sound Effects",
+          "song_group_count": 109,
+          "midi_file_count": 109,
+          "note_count": 45813,
+          "part_count": 109
+        },
+        {
+          "instrument_key": "122",
+          "program_number": 122,
+          "instrument_name": "Seashore",
+          "family": "Sound Effects",
+          "song_group_count": 709,
+          "midi_file_count": 709,
+          "note_count": 17489,
+          "part_count": 773
+        },
+        {
+          "instrument_key": "123",
+          "program_number": 123,
+          "instrument_name": "Bird Tweet",
+          "family": "Sound Effects",
+          "song_group_count": 113,
+          "midi_file_count": 113,
+          "note_count": 16910,
+          "part_count": 122
+        },
+        {
+          "instrument_key": "124",
+          "program_number": 124,
+          "instrument_name": "Telephone Ring",
+          "family": "Sound Effects",
+          "song_group_count": 317,
+          "midi_file_count": 317,
+          "note_count": 13790,
+          "part_count": 348
+        },
+        {
+          "instrument_key": "125",
+          "program_number": 125,
+          "instrument_name": "Helicopter",
+          "family": "Sound Effects",
+          "song_group_count": 282,
+          "midi_file_count": 282,
+          "note_count": 4979,
+          "part_count": 301
+        },
+        {
+          "instrument_key": "126",
+          "program_number": 126,
+          "instrument_name": "Applause",
+          "family": "Sound Effects",
+          "song_group_count": 265,
+          "midi_file_count": 265,
+          "note_count": 47305,
+          "part_count": 299
+        },
+        {
+          "instrument_key": "127",
+          "program_number": 127,
+          "instrument_name": "Gunshot",
+          "family": "Sound Effects",
+          "song_group_count": 448,
+          "midi_file_count": 448,
+          "note_count": 48485,
+          "part_count": 477
+        }
+      ]
+    }
+  },
+  "program_to_label": {
+    "drums": "drums",
+    "0": "piano",
+    "1": "piano",
+    "2": "electric_piano",
+    "3": "piano",
+    "4": "electric_piano",
+    "5": "electric_piano",
+    "6": "plucked_keyboard",
+    "7": "plucked_keyboard",
+    "8": "chromatic_percussion",
+    "9": "chromatic_percussion",
+    "10": "chromatic_percussion",
+    "11": "chromatic_percussion",
+    "12": "chromatic_percussion",
+    "13": "chromatic_percussion",
+    "14": "chromatic_percussion",
+    "15": "chromatic_percussion",
+    "16": "organ",
+    "17": "organ",
+    "18": "organ",
+    "19": "organ",
+    "20": "organ",
+    "21": "accordion_family",
+    "23": "accordion_family",
+    "22": "harmonica",
+    "24": "acoustic_guitar",
+    "25": "acoustic_guitar",
+    "26": "electric_guitar_clean",
+    "27": "electric_guitar_clean",
+    "28": "electric_guitar_muted",
+    "29": "distorted_guitar",
+    "30": "distorted_guitar",
+    "31": "guitar_harmonics",
+    "32": "acoustic_bass",
+    "33": "electric_bass",
+    "34": "electric_bass",
+    "35": "electric_bass",
+    "36": "slap_bass",
+    "37": "slap_bass",
+    "38": "synth_bass",
+    "39": "synth_bass",
+    "40": "strings",
+    "41": "strings",
+    "42": "strings",
+    "43": "strings",
+    "44": "strings",
+    "45": "pizzicato_strings",
+    "46": "orchestral_harp",
+    "47": "timpani",
+    "48": "strings",
+    "49": "strings",
+    "50": "strings",
+    "51": "strings",
+    "52": "choir",
+    "53": "choir",
+    "54": "choir",
+    "55": "orchestra_hit",
+    "56": "brass",
+    "57": "brass",
+    "58": "brass",
+    "59": "brass",
+    "60": "brass",
+    "61": "brass",
+    "62": "brass",
+    "63": "brass",
+    "64": "sax",
+    "65": "sax",
+    "66": "sax",
+    "67": "sax",
+    "68": "orchestral_woodwind",
+    "69": "orchestral_woodwind",
+    "70": "orchestral_woodwind",
+    "71": "orchestral_woodwind",
+    "72": "flute_pipe",
+    "73": "flute_pipe",
+    "74": "flute_pipe",
+    "75": "flute_pipe",
+    "76": "flute_pipe",
+    "77": "flute_pipe",
+    "78": "flute_pipe",
+    "79": "flute_pipe",
+    "80": "synth_lead",
+    "81": "synth_lead",
+    "82": "synth_lead",
+    "83": "synth_lead",
+    "84": "synth_lead",
+    "85": "synth_lead",
+    "86": "synth_lead",
+    "87": "synth_lead",
+    "88": "synth_pad",
+    "89": "synth_pad",
+    "90": "synth_pad",
+    "91": "synth_pad",
+    "92": "synth_pad",
+    "93": "synth_pad",
+    "94": "synth_pad",
+    "95": "synth_pad",
+    "96": "synth_fx",
+    "97": "synth_fx",
+    "98": "synth_fx",
+    "99": "synth_fx",
+    "100": "synth_fx",
+    "101": "synth_fx",
+    "102": "synth_fx",
+    "103": "synth_fx",
+    "104": "ethnic",
+    "105": "ethnic",
+    "106": "ethnic",
+    "107": "ethnic",
+    "108": "ethnic",
+    "109": "ethnic",
+    "110": "ethnic",
+    "111": "ethnic",
+    "112": "percussive_fx",
+    "113": "percussive_fx",
+    "114": "percussive_fx",
+    "115": "percussive_fx",
+    "116": "percussive_fx",
+    "117": "percussive_fx",
+    "118": "percussive_fx",
+    "119": "percussive_fx",
+    "120": "sound_fx",
+    "121": "sound_fx",
+    "122": "sound_fx",
+    "123": "sound_fx",
+    "124": "sound_fx",
+    "125": "sound_fx",
+    "126": "sound_fx",
+    "127": "sound_fx"
+  }
+}

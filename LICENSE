@@ -1,0 +1,44 @@
+MIT License
+
+Copyright (c) 2026 离谱 (Lipu) contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 第三方组件与模型（各自的许可证，不因本项目而改变）
+
+本仓库**不包含任何第三方模型权重**（`.onnx` / `.pth` / `.mnn` 等一律不入库），
+只包含调用它们的代码与下载/导出脚本。使用前请自行核对下表许可证。
+
+| 组件 | 用途 | 许可证 | 出处 |
+|---|---|---|---|
+| **Verovio** 6.3.0 | 五线谱渲染（WebView 内运行） | MIT | rism-digital/verovio |
+| **Basic Pitch** | 内置扒谱引擎（随包分发的小模型） | Apache-2.0 | spotify/basic-pitch |
+| **ByteDance 钢琴 CRNN** | 可选增强包（钢琴专用） | MIT | Qiuqiang Kong et al., *High-resolution Piano Transcription with Pedals by Regressing Onsets and Offsets Times*, IEEE/ACM TASLP 2021（ONNX 转换：steele） |
+| **Tsumugi / instrument_agnostic_amt** | 可选增强包（乐器无关 AMT） | MIT | anime-song/tsumugi |
+| **UVR-MDX-NET KARA2** | 可选增强包（人声分离·小） | MIT | musetric/uvr-mdxnet-kara2-onnx |
+| **htdemucs（Demucs v4）** | 可选增强包（人声分离·大） | 上游未标注（**已如实标注，供用户自行决策**） | timcsy/demucs-web-onnx |
+| **MuScriptor** | 规划中的可选后端 | **CC BY-NC 4.0（禁止商用）** | 见仓库内说明 |
+| **MNN** | 实验性推理运行时 | Apache-2.0 | alibaba/MNN |
+| **onnxruntime** | 推理运行时（flutter_onnxruntime 包装） | MIT | microsoft/onnxruntime |
+| **Salamander 钢琴采样** | 谱面试听 | CC BY 3.0 | Alexander Holm |
+
+> 说明：本项目代码采用 MIT；上表中标注 **CC BY-NC / 未标注** 的模型**不可用于商业用途**，
+> 界面里也对用户做了明确提示（"商用需自行确认授权"）。

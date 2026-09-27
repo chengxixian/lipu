@@ -1,0 +1,95 @@
+name: jianpu_app
+description: "离谱 —— 简谱识谱机：自动识别简谱并转换成五线谱"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.8.3+35
+
+environment:
+  sdk: ^3.13.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  crypto: ^3.0.6
+  file_picker: ^13.1.0
+  audioplayers: ^6.8.1
+  record: ^7.1.1
+  flutter_onnxruntime: ^1.8.5
+  # 乐谱渲染：WebView 里跑 Verovio（JS/WASM）把 MusicXML 排成专业 SVG
+  flutter_inappwebview: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # 真机/真桌面端的端到端测试（Basic Pitch 需要 ONNX Runtime 原生库）
+  integration_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+dependency_overrides:
+  # path_provider_android 2.3+ 会引入 jni / jni_flutter 原生插件，其 Dart build hook
+  # 在本机（Windows + AGP 9.1）会生成反斜杠未转义的 JSON，导致 Gson 解析失败：
+  #   MalformedJsonException: Invalid escape sequence ... $.buildFiles[0]
+  # 钉到最后一个不使用 jni 的版本即可绕开（功能等价）。
+  path_provider_android: 2.2.23
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  fonts:
+    # Bravura：SMuFL 标准乐谱字体（SIL OFL 1.1）。改用 Verovio 渲染后它只作为
+    # 兜底渲染引擎用；Verovio 自带 Leipzig 字形（SVG 里是路径，不依赖外部字体）。
+    - family: Bravura
+      fonts:
+        - asset: assets/fonts/Bravura.otf
+
+  assets:
+    # 扒谱页的内置示例音频（Merry Christmas Mr. Lawrence 前 90 秒，
+    # 由 tool/make_demo_sample.py 从用户提供的音频转出：22050Hz 单声道 16bit WAV）。
+    # 小星星/茉莉花/复调示例只作为**测试音源**留在 test/fixtures/，不再打进包里。
+    - assets/samples/
+    # Basic Pitch 模型（Spotify AB，Apache-2.0 的 ONNX 导出，约 230KB）
+    - assets/models/
+    # Verovio 排版引擎（自包含单文件 JS，内嵌 WASM 与字形，约 7MB）
+    - assets/verovio/
+    # 试听用的真实钢琴采样（Salamander Grand Piano V6.2，CC-BY-3.0，
+    # 由 tool/fetch_piano_samples.mjs 从 48kHz/24bit 立体声转成 44.1kHz 单声道）
+    - assets/piano/

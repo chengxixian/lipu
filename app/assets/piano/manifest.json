@@ -1,0 +1,281 @@
+{
+ "version": 1,
+ "sampleRate": 44100,
+ "source": "Salamander Grand Piano V6.2 (Accurate) — Yamaha C5, Alexander Holm",
+ "sourceUrl": "https://huggingface.co/datasets/EinWWW/Accurate-Salamander-Grand-Piano-Yamaha-C5",
+ "license": "CC-BY-3.0",
+ "attribution": "Salamander Grand Piano V6.2 (Yamaha C5) by Alexander Holm — CC-BY-3.0",
+ "velocityLayer": 8,
+ "notes": [
+  {
+   "midi": 21,
+   "file": "p021_A0.wav",
+   "frames": 132300,
+   "loopStart": 84190,
+   "loopEnd": 132300,
+   "freq": 27.1985,
+   "peak": 0.8064
+  },
+  {
+   "midi": 24,
+   "file": "p024_C1.wav",
+   "frames": 132300,
+   "loopStart": 82914,
+   "loopEnd": 132300,
+   "freq": 32.4234,
+   "peak": 0.7431
+  },
+  {
+   "midi": 27,
+   "file": "p027_Ds1.wav",
+   "frames": 132300,
+   "loopStart": 83287,
+   "loopEnd": 132300,
+   "freq": 38.6453,
+   "peak": 0.7203
+  },
+  {
+   "midi": 30,
+   "file": "p030_Fs1.wav",
+   "frames": 132300,
+   "loopStart": 83053,
+   "loopEnd": 132300,
+   "freq": 46.1057,
+   "peak": 0.6338
+  },
+  {
+   "midi": 33,
+   "file": "p033_A1.wav",
+   "frames": 132300,
+   "loopStart": 83979,
+   "loopEnd": 132300,
+   "freq": 54.8051,
+   "peak": 0.6795
+  },
+  {
+   "midi": 36,
+   "file": "p036_C2.wav",
+   "frames": 132300,
+   "loopStart": 83504,
+   "loopEnd": 132300,
+   "freq": 65.0377,
+   "peak": 0.5426
+  },
+  {
+   "midi": 39,
+   "file": "p039_Ds2.wav",
+   "frames": 132300,
+   "loopStart": 83749,
+   "loopEnd": 132300,
+   "freq": 77.2378,
+   "peak": 0.6592
+  },
+  {
+   "midi": 42,
+   "file": "p042_Fs2.wav",
+   "frames": 132300,
+   "loopStart": 83979,
+   "loopEnd": 132300,
+   "freq": 92.1646,
+   "peak": 0.6298
+  },
+  {
+   "midi": 45,
+   "file": "p045_A2.wav",
+   "frames": 132300,
+   "loopStart": 83935,
+   "loopEnd": 132300,
+   "freq": 109.4011,
+   "peak": 0.8286
+  },
+  {
+   "midi": 48,
+   "file": "p048_C3.wav",
+   "frames": 105840,
+   "loopStart": 66155,
+   "loopEnd": 105840,
+   "freq": 130.0142,
+   "peak": 0.7248
+  },
+  {
+   "midi": 51,
+   "file": "p051_Ds3.wav",
+   "frames": 105840,
+   "loopStart": 66001,
+   "loopEnd": 105840,
+   "freq": 155.1319,
+   "peak": 0.7742
+  },
+  {
+   "midi": 54,
+   "file": "p054_Fs3.wav",
+   "frames": 105840,
+   "loopStart": 66069,
+   "loopEnd": 105840,
+   "freq": 184.3224,
+   "peak": 0.6886
+  },
+  {
+   "midi": 57,
+   "file": "p057_A3.wav",
+   "frames": 105840,
+   "loopStart": 66147,
+   "loopEnd": 105840,
+   "freq": 219.9883,
+   "peak": 0.717
+  },
+  {
+   "midi": 60,
+   "file": "p060_C4.wav",
+   "frames": 105840,
+   "loopStart": 66150,
+   "loopEnd": 105840,
+   "freq": 261.256,
+   "peak": 0.724
+  },
+  {
+   "midi": 63,
+   "file": "p063_Ds4.wav",
+   "frames": 105840,
+   "loopStart": 66138,
+   "loopEnd": 105840,
+   "freq": 311.2254,
+   "peak": 0.99
+  },
+  {
+   "midi": 66,
+   "file": "p066_Fs4.wav",
+   "frames": 105840,
+   "loopStart": 66093,
+   "loopEnd": 105840,
+   "freq": 369.4579,
+   "peak": 0.7762
+  },
+  {
+   "midi": 69,
+   "file": "p069_A4.wav",
+   "frames": 105840,
+   "loopStart": 66137,
+   "loopEnd": 105840,
+   "freq": 439.8278,
+   "peak": 0.6007
+  },
+  {
+   "midi": 72,
+   "file": "p072_C5.wav",
+   "frames": 74970,
+   "loopStart": 44168,
+   "loopEnd": 74970,
+   "freq": 523.5274,
+   "peak": 0.3414
+  },
+  {
+   "midi": 75,
+   "file": "p075_Ds5.wav",
+   "frames": 74970,
+   "loopStart": 44083,
+   "loopEnd": 74970,
+   "freq": 622.8049,
+   "peak": 0.5628
+  },
+  {
+   "midi": 78,
+   "file": "p078_Fs5.wav",
+   "frames": 74970,
+   "loopStart": 44107,
+   "loopEnd": 74970,
+   "freq": 740.6966,
+   "peak": 0.6151
+  },
+  {
+   "midi": 81,
+   "file": "p081_A5.wav",
+   "frames": 74970,
+   "loopStart": 44126,
+   "loopEnd": 74970,
+   "freq": 880.4503,
+   "peak": 0.6119
+  },
+  {
+   "midi": 84,
+   "file": "p084_C6.wav",
+   "frames": 74970,
+   "loopStart": 44088,
+   "loopEnd": 74970,
+   "freq": 1049.6573,
+   "peak": 0.7571
+  },
+  {
+   "midi": 87,
+   "file": "p087_Ds6.wav",
+   "frames": 74970,
+   "loopStart": 44119,
+   "loopEnd": 74970,
+   "freq": 1247.2666,
+   "peak": 0.5565
+  },
+  {
+   "midi": 90,
+   "file": "p090_Fs6.wav",
+   "frames": 74970,
+   "loopStart": 44088,
+   "loopEnd": 74970,
+   "freq": 1487.1721,
+   "peak": 0.5728
+  },
+  {
+   "midi": 93,
+   "file": "p093_A6.wav",
+   "frames": 74970,
+   "loopStart": 44091,
+   "loopEnd": 74970,
+   "freq": 1763.0623,
+   "peak": 0.4725
+  },
+  {
+   "midi": 96,
+   "file": "p096_C7.wav",
+   "frames": 74970,
+   "loopStart": 44110,
+   "loopEnd": 74970,
+   "freq": 2107.3903,
+   "peak": 0.5534
+  },
+  {
+   "midi": 99,
+   "file": "p099_Ds7.wav",
+   "frames": 74970,
+   "loopStart": 44116,
+   "loopEnd": 74970,
+   "freq": 2484.8781,
+   "peak": 0.3182
+  },
+  {
+   "midi": 102,
+   "file": "p102_Fs7.wav",
+   "frames": 74970,
+   "loopStart": 44095,
+   "loopEnd": 74970,
+   "freq": 2965.8949,
+   "peak": 0.4079
+  },
+  {
+   "midi": 105,
+   "file": "p105_A7.wav",
+   "frames": 74970,
+   "loopStart": 44098,
+   "loopEnd": 74970,
+   "freq": 3560.1063,
+   "peak": 0.3591
+  },
+  {
+   "midi": 108,
+   "file": "p108_C8.wav",
+   "frames": 74970,
+   "loopStart": 44110,
+   "loopEnd": 74970,
+   "freq": 4184.9861,
+   "peak": 0.2088
+  }
+ ]
+}

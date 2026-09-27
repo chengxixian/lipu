@@ -1,0 +1,16 @@
+{
+ "sampleRate": 22050,
+ "fftHop": 256,
+ "audioNSamples": 43844,
+ "hopSize": 36164,
+ "overlapFrames": 30,
+ "samples": 66150,
+ "nWindows": 2,
+ "nFrames": 259,
+ "nNoteBins": 88,
+ "onsetThreshold": 0.5,
+ "frameThreshold": 0.3,
+ "minNoteLen": 11,
+ "melodiaTrick": true,
+ "noteEvents": 11
+}

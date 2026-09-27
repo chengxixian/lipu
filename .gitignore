@@ -1,0 +1,69 @@
+# ---- 构建产物（体积巨大，绝不入库）----
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/dist/
+build/
+build_out/
+*.exe
+*.msi
+*.apk
+*.aab
+*.so
+*.dll
+*.dylib
+*.pdb
+
+# ---- 模型与数据集（授权各异，一律不入库；用脚本下载/导出）----
+third_party/piano_crnn/*.onnx
+third_party/piano_crnn/*.mnn
+third_party/tsumugi/*.pth
+third_party/tsumugi/*.onnx
+third_party/tsumugi/*.onnx.data
+third_party/tsumugi/*.mnn
+third_party/tsumugi/*.pt
+third_party/tsumugi/*.npz
+third_party/separators/*.onnx
+third_party/mnn/*.zip
+third_party/mnn/*.dll
+third_party/mnn/android/
+third_party/onnxruntime-win-x64/
+app/android/app/src/main/jniLibs/
+!app/android/app/src/main/jniLibs/**/.gitkeep
+
+# ---- Python / Node 环境 ----
+tools/**/.venv/
+tools/**/__pycache__/
+tools/**/node_modules/
+*.pyc
+
+# ---- 测试与临时素材（体积大或本机生成）----
+_tmp_audio/
+tmp/
+*.log
+
+# ---- 编辑器与系统 ----
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 第三方压缩包 / 素材缓存（可重新下载，别入库）----
+third_party/*.zip
+app/tool/.cache/
+app/assets/samples/*.mp3
+app/assets/samples/*.m4a
+app/assets/samples/*.flac
+*.mp3
+*.m4a
+*.flac
+
+# ---- 测试产生的中间文件 ----
+*.jianpu
+*.musicxml.tmp
+# 示例音频（曲目可能涉版权；用 app/tool/make_sample_wav.dart 自行生成）
+app/assets/samples/*.wav

@@ -1,0 +1,1470 @@
+{
+  "format": "General MIDI Level 1",
+  "generated_with": "pretty_midi",
+  "families": [
+    {
+      "family_index": 0,
+      "family_name": "Piano",
+      "program_range": [
+        0,
+        7
+      ],
+      "programs": [
+        {
+          "program_number": 0,
+          "instrument_name": "Acoustic Grand Piano"
+        },
+        {
+          "program_number": 1,
+          "instrument_name": "Bright Acoustic Piano"
+        },
+        {
+          "program_number": 2,
+          "instrument_name": "Electric Grand Piano"
+        },
+        {
+          "program_number": 3,
+          "instrument_name": "Honky-tonk Piano"
+        },
+        {
+          "program_number": 4,
+          "instrument_name": "Electric Piano 1"
+        },
+        {
+          "program_number": 5,
+          "instrument_name": "Electric Piano 2"
+        },
+        {
+          "program_number": 6,
+          "instrument_name": "Harpsichord"
+        },
+        {
+          "program_number": 7,
+          "instrument_name": "Clavinet"
+        }
+      ]
+    },
+    {
+      "family_index": 1,
+      "family_name": "Chromatic Percussion",
+      "program_range": [
+        8,
+        15
+      ],
+      "programs": [
+        {
+          "program_number": 8,
+          "instrument_name": "Celesta"
+        },
+        {
+          "program_number": 9,
+          "instrument_name": "Glockenspiel"
+        },
+        {
+          "program_number": 10,
+          "instrument_name": "Music Box"
+        },
+        {
+          "program_number": 11,
+          "instrument_name": "Vibraphone"
+        },
+        {
+          "program_number": 12,
+          "instrument_name": "Marimba"
+        },
+        {
+          "program_number": 13,
+          "instrument_name": "Xylophone"
+        },
+        {
+          "program_number": 14,
+          "instrument_name": "Tubular Bells"
+        },
+        {
+          "program_number": 15,
+          "instrument_name": "Dulcimer"
+        }
+      ]
+    },
+    {
+      "family_index": 2,
+      "family_name": "Organ",
+      "program_range": [
+        16,
+        23
+      ],
+      "programs": [
+        {
+          "program_number": 16,
+          "instrument_name": "Drawbar Organ"
+        },
+        {
+          "program_number": 17,
+          "instrument_name": "Percussive Organ"
+        },
+        {
+          "program_number": 18,
+          "instrument_name": "Rock Organ"
+        },
+        {
+          "program_number": 19,
+          "instrument_name": "Church Organ"
+        },
+        {
+          "program_number": 20,
+          "instrument_name": "Reed Organ"
+        },
+        {
+          "program_number": 21,
+          "instrument_name": "Accordion"
+        },
+        {
+          "program_number": 22,
+          "instrument_name": "Harmonica"
+        },
+        {
+          "program_number": 23,
+          "instrument_name": "Tango Accordion"
+        }
+      ]
+    },
+    {
+      "family_index": 3,
+      "family_name": "Guitar",
+      "program_range": [
+        24,
+        31
+      ],
+      "programs": [
+        {
+          "program_number": 24,
+          "instrument_name": "Acoustic Guitar (nylon)"
+        },
+        {
+          "program_number": 25,
+          "instrument_name": "Acoustic Guitar (steel)"
+        },
+        {
+          "program_number": 26,
+          "instrument_name": "Electric Guitar (jazz)"
+        },
+        {
+          "program_number": 27,
+          "instrument_name": "Electric Guitar (clean)"
+        },
+        {
+          "program_number": 28,
+          "instrument_name": "Electric Guitar (muted)"
+        },
+        {
+          "program_number": 29,
+          "instrument_name": "Overdriven Guitar"
+        },
+        {
+          "program_number": 30,
+          "instrument_name": "Distortion Guitar"
+        },
+        {
+          "program_number": 31,
+          "instrument_name": "Guitar Harmonics"
+        }
+      ]
+    },
+    {
+      "family_index": 4,
+      "family_name": "Bass",
+      "program_range": [
+        32,
+        39
+      ],
+      "programs": [
+        {
+          "program_number": 32,
+          "instrument_name": "Acoustic Bass"
+        },
+        {
+          "program_number": 33,
+          "instrument_name": "Electric Bass (finger)"
+        },
+        {
+          "program_number": 34,
+          "instrument_name": "Electric Bass (pick)"
+        },
+        {
+          "program_number": 35,
+          "instrument_name": "Fretless Bass"
+        },
+        {
+          "program_number": 36,
+          "instrument_name": "Slap Bass 1"
+        },
+        {
+          "program_number": 37,
+          "instrument_name": "Slap Bass 2"
+        },
+        {
+          "program_number": 38,
+          "instrument_name": "Synth Bass 1"
+        },
+        {
+          "program_number": 39,
+          "instrument_name": "Synth Bass 2"
+        }
+      ]
+    },
+    {
+      "family_index": 5,
+      "family_name": "Strings",
+      "program_range": [
+        40,
+        47
+      ],
+      "programs": [
+        {
+          "program_number": 40,
+          "instrument_name": "Violin"
+        },
+        {
+          "program_number": 41,
+          "instrument_name": "Viola"
+        },
+        {
+          "program_number": 42,
+          "instrument_name": "Cello"
+        },
+        {
+          "program_number": 43,
+          "instrument_name": "Contrabass"
+        },
+        {
+          "program_number": 44,
+          "instrument_name": "Tremolo Strings"
+        },
+        {
+          "program_number": 45,
+          "instrument_name": "Pizzicato Strings"
+        },
+        {
+          "program_number": 46,
+          "instrument_name": "Orchestral Harp"
+        },
+        {
+          "program_number": 47,
+          "instrument_name": "Timpani"
+        }
+      ]
+    },
+    {
+      "family_index": 6,
+      "family_name": "Ensemble",
+      "program_range": [
+        48,
+        55
+      ],
+      "programs": [
+        {
+          "program_number": 48,
+          "instrument_name": "String Ensemble 1"
+        },
+        {
+          "program_number": 49,
+          "instrument_name": "String Ensemble 2"
+        },
+        {
+          "program_number": 50,
+          "instrument_name": "Synth Strings 1"
+        },
+        {
+          "program_number": 51,
+          "instrument_name": "Synth Strings 2"
+        },
+        {
+          "program_number": 52,
+          "instrument_name": "Choir Aahs"
+        },
+        {
+          "program_number": 53,
+          "instrument_name": "Voice Oohs"
+        },
+        {
+          "program_number": 54,
+          "instrument_name": "Synth Choir"
+        },
+        {
+          "program_number": 55,
+          "instrument_name": "Orchestra Hit"
+        }
+      ]
+    },
+    {
+      "family_index": 7,
+      "family_name": "Brass",
+      "program_range": [
+        56,
+        63
+      ],
+      "programs": [
+        {
+          "program_number": 56,
+          "instrument_name": "Trumpet"
+        },
+        {
+          "program_number": 57,
+          "instrument_name": "Trombone"
+        },
+        {
+          "program_number": 58,
+          "instrument_name": "Tuba"
+        },
+        {
+          "program_number": 59,
+          "instrument_name": "Muted Trumpet"
+        },
+        {
+          "program_number": 60,
+          "instrument_name": "French Horn"
+        },
+        {
+          "program_number": 61,
+          "instrument_name": "Brass Section"
+        },
+        {
+          "program_number": 62,
+          "instrument_name": "Synth Brass 1"
+        },
+        {
+          "program_number": 63,
+          "instrument_name": "Synth Brass 2"
+        }
+      ]
+    },
+    {
+      "family_index": 8,
+      "family_name": "Reed",
+      "program_range": [
+        64,
+        71
+      ],
+      "programs": [
+        {
+          "program_number": 64,
+          "instrument_name": "Soprano Sax"
+        },
+        {
+          "program_number": 65,
+          "instrument_name": "Alto Sax"
+        },
+        {
+          "program_number": 66,
+          "instrument_name": "Tenor Sax"
+        },
+        {
+          "program_number": 67,
+          "instrument_name": "Baritone Sax"
+        },
+        {
+          "program_number": 68,
+          "instrument_name": "Oboe"
+        },
+        {
+          "program_number": 69,
+          "instrument_name": "English Horn"
+        },
+        {
+          "program_number": 70,
+          "instrument_name": "Bassoon"
+        },
+        {
+          "program_number": 71,
+          "instrument_name": "Clarinet"
+        }
+      ]
+    },
+    {
+      "family_index": 9,
+      "family_name": "Pipe",
+      "program_range": [
+        72,
+        79
+      ],
+      "programs": [
+        {
+          "program_number": 72,
+          "instrument_name": "Piccolo"
+        },
+        {
+          "program_number": 73,
+          "instrument_name": "Flute"
+        },
+        {
+          "program_number": 74,
+          "instrument_name": "Recorder"
+        },
+        {
+          "program_number": 75,
+          "instrument_name": "Pan Flute"
+        },
+        {
+          "program_number": 76,
+          "instrument_name": "Blown bottle"
+        },
+        {
+          "program_number": 77,
+          "instrument_name": "Shakuhachi"
+        },
+        {
+          "program_number": 78,
+          "instrument_name": "Whistle"
+        },
+        {
+          "program_number": 79,
+          "instrument_name": "Ocarina"
+        }
+      ]
+    },
+    {
+      "family_index": 10,
+      "family_name": "Synth Lead",
+      "program_range": [
+        80,
+        87
+      ],
+      "programs": [
+        {
+          "program_number": 80,
+          "instrument_name": "Lead 1 (square)"
+        },
+        {
+          "program_number": 81,
+          "instrument_name": "Lead 2 (sawtooth)"
+        },
+        {
+          "program_number": 82,
+          "instrument_name": "Lead 3 (calliope)"
+        },
+        {
+          "program_number": 83,
+          "instrument_name": "Lead 4 chiff"
+        },
+        {
+          "program_number": 84,
+          "instrument_name": "Lead 5 (charang)"
+        },
+        {
+          "program_number": 85,
+          "instrument_name": "Lead 6 (voice)"
+        },
+        {
+          "program_number": 86,
+          "instrument_name": "Lead 7 (fifths)"
+        },
+        {
+          "program_number": 87,
+          "instrument_name": "Lead 8 (bass + lead)"
+        }
+      ]
+    },
+    {
+      "family_index": 11,
+      "family_name": "Synth Pad",
+      "program_range": [
+        88,
+        95
+      ],
+      "programs": [
+        {
+          "program_number": 88,
+          "instrument_name": "Pad 1 (new age)"
+        },
+        {
+          "program_number": 89,
+          "instrument_name": "Pad 2 (warm)"
+        },
+        {
+          "program_number": 90,
+          "instrument_name": "Pad 3 (polysynth)"
+        },
+        {
+          "program_number": 91,
+          "instrument_name": "Pad 4 (choir)"
+        },
+        {
+          "program_number": 92,
+          "instrument_name": "Pad 5 (bowed)"
+        },
+        {
+          "program_number": 93,
+          "instrument_name": "Pad 6 (metallic)"
+        },
+        {
+          "program_number": 94,
+          "instrument_name": "Pad 7 (halo)"
+        },
+        {
+          "program_number": 95,
+          "instrument_name": "Pad 8 (sweep)"
+        }
+      ]
+    },
+    {
+      "family_index": 12,
+      "family_name": "Synth Effects",
+      "program_range": [
+        96,
+        103
+      ],
+      "programs": [
+        {
+          "program_number": 96,
+          "instrument_name": "FX 1 (rain)"
+        },
+        {
+          "program_number": 97,
+          "instrument_name": "FX 2 (soundtrack)"
+        },
+        {
+          "program_number": 98,
+          "instrument_name": "FX 3 (crystal)"
+        },
+        {
+          "program_number": 99,
+          "instrument_name": "FX 4 (atmosphere)"
+        },
+        {
+          "program_number": 100,
+          "instrument_name": "FX 5 (brightness)"
+        },
+        {
+          "program_number": 101,
+          "instrument_name": "FX 6 (goblins)"
+        },
+        {
+          "program_number": 102,
+          "instrument_name": "FX 7 (echoes)"
+        },
+        {
+          "program_number": 103,
+          "instrument_name": "FX 8 (sci-fi)"
+        }
+      ]
+    },
+    {
+      "family_index": 13,
+      "family_name": "Ethnic",
+      "program_range": [
+        104,
+        111
+      ],
+      "programs": [
+        {
+          "program_number": 104,
+          "instrument_name": "Sitar"
+        },
+        {
+          "program_number": 105,
+          "instrument_name": "Banjo"
+        },
+        {
+          "program_number": 106,
+          "instrument_name": "Shamisen"
+        },
+        {
+          "program_number": 107,
+          "instrument_name": "Koto"
+        },
+        {
+          "program_number": 108,
+          "instrument_name": "Kalimba"
+        },
+        {
+          "program_number": 109,
+          "instrument_name": "Bagpipe"
+        },
+        {
+          "program_number": 110,
+          "instrument_name": "Fiddle"
+        },
+        {
+          "program_number": 111,
+          "instrument_name": "Shanai"
+        }
+      ]
+    },
+    {
+      "family_index": 14,
+      "family_name": "Percussive",
+      "program_range": [
+        112,
+        119
+      ],
+      "programs": [
+        {
+          "program_number": 112,
+          "instrument_name": "Tinkle Bell"
+        },
+        {
+          "program_number": 113,
+          "instrument_name": "Agogo"
+        },
+        {
+          "program_number": 114,
+          "instrument_name": "Steel Drums"
+        },
+        {
+          "program_number": 115,
+          "instrument_name": "Woodblock"
+        },
+        {
+          "program_number": 116,
+          "instrument_name": "Taiko Drum"
+        },
+        {
+          "program_number": 117,
+          "instrument_name": "Melodic Tom"
+        },
+        {
+          "program_number": 118,
+          "instrument_name": "Synth Drum"
+        },
+        {
+          "program_number": 119,
+          "instrument_name": "Reverse Cymbal"
+        }
+      ]
+    },
+    {
+      "family_index": 15,
+      "family_name": "Sound Effects",
+      "program_range": [
+        120,
+        127
+      ],
+      "programs": [
+        {
+          "program_number": 120,
+          "instrument_name": "Guitar Fret Noise"
+        },
+        {
+          "program_number": 121,
+          "instrument_name": "Breath Noise"
+        },
+        {
+          "program_number": 122,
+          "instrument_name": "Seashore"
+        },
+        {
+          "program_number": 123,
+          "instrument_name": "Bird Tweet"
+        },
+        {
+          "program_number": 124,
+          "instrument_name": "Telephone Ring"
+        },
+        {
+          "program_number": 125,
+          "instrument_name": "Helicopter"
+        },
+        {
+          "program_number": 126,
+          "instrument_name": "Applause"
+        },
+        {
+          "program_number": 127,
+          "instrument_name": "Gunshot"
+        }
+      ]
+    },
+    {
+      "family_index": 16,
+      "family_name": "Drums",
+      "program_range": null,
+      "programs": [
+        {
+          "instrument_key": "drums",
+          "program_number": null,
+          "instrument_name": "Drums",
+          "note": "General MIDI percussion is usually assigned to channel 10."
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "program_number": 0,
+      "instrument_name": "Acoustic Grand Piano",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 1,
+      "instrument_name": "Bright Acoustic Piano",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 2,
+      "instrument_name": "Electric Grand Piano",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 3,
+      "instrument_name": "Honky-tonk Piano",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 4,
+      "instrument_name": "Electric Piano 1",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 5,
+      "instrument_name": "Electric Piano 2",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 6,
+      "instrument_name": "Harpsichord",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 7,
+      "instrument_name": "Clavinet",
+      "family_index": 0,
+      "family_name": "Piano"
+    },
+    {
+      "program_number": 8,
+      "instrument_name": "Celesta",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 9,
+      "instrument_name": "Glockenspiel",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 10,
+      "instrument_name": "Music Box",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 11,
+      "instrument_name": "Vibraphone",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 12,
+      "instrument_name": "Marimba",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 13,
+      "instrument_name": "Xylophone",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 14,
+      "instrument_name": "Tubular Bells",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 15,
+      "instrument_name": "Dulcimer",
+      "family_index": 1,
+      "family_name": "Chromatic Percussion"
+    },
+    {
+      "program_number": 16,
+      "instrument_name": "Drawbar Organ",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 17,
+      "instrument_name": "Percussive Organ",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 18,
+      "instrument_name": "Rock Organ",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 19,
+      "instrument_name": "Church Organ",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 20,
+      "instrument_name": "Reed Organ",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 21,
+      "instrument_name": "Accordion",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 22,
+      "instrument_name": "Harmonica",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 23,
+      "instrument_name": "Tango Accordion",
+      "family_index": 2,
+      "family_name": "Organ"
+    },
+    {
+      "program_number": 24,
+      "instrument_name": "Acoustic Guitar (nylon)",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 25,
+      "instrument_name": "Acoustic Guitar (steel)",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 26,
+      "instrument_name": "Electric Guitar (jazz)",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 27,
+      "instrument_name": "Electric Guitar (clean)",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 28,
+      "instrument_name": "Electric Guitar (muted)",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 29,
+      "instrument_name": "Overdriven Guitar",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 30,
+      "instrument_name": "Distortion Guitar",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 31,
+      "instrument_name": "Guitar Harmonics",
+      "family_index": 3,
+      "family_name": "Guitar"
+    },
+    {
+      "program_number": 32,
+      "instrument_name": "Acoustic Bass",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 33,
+      "instrument_name": "Electric Bass (finger)",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 34,
+      "instrument_name": "Electric Bass (pick)",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 35,
+      "instrument_name": "Fretless Bass",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 36,
+      "instrument_name": "Slap Bass 1",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 37,
+      "instrument_name": "Slap Bass 2",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 38,
+      "instrument_name": "Synth Bass 1",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 39,
+      "instrument_name": "Synth Bass 2",
+      "family_index": 4,
+      "family_name": "Bass"
+    },
+    {
+      "program_number": 40,
+      "instrument_name": "Violin",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 41,
+      "instrument_name": "Viola",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 42,
+      "instrument_name": "Cello",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 43,
+      "instrument_name": "Contrabass",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 44,
+      "instrument_name": "Tremolo Strings",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 45,
+      "instrument_name": "Pizzicato Strings",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 46,
+      "instrument_name": "Orchestral Harp",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 47,
+      "instrument_name": "Timpani",
+      "family_index": 5,
+      "family_name": "Strings"
+    },
+    {
+      "program_number": 48,
+      "instrument_name": "String Ensemble 1",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 49,
+      "instrument_name": "String Ensemble 2",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 50,
+      "instrument_name": "Synth Strings 1",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 51,
+      "instrument_name": "Synth Strings 2",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 52,
+      "instrument_name": "Choir Aahs",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 53,
+      "instrument_name": "Voice Oohs",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 54,
+      "instrument_name": "Synth Choir",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 55,
+      "instrument_name": "Orchestra Hit",
+      "family_index": 6,
+      "family_name": "Ensemble"
+    },
+    {
+      "program_number": 56,
+      "instrument_name": "Trumpet",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 57,
+      "instrument_name": "Trombone",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 58,
+      "instrument_name": "Tuba",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 59,
+      "instrument_name": "Muted Trumpet",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 60,
+      "instrument_name": "French Horn",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 61,
+      "instrument_name": "Brass Section",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 62,
+      "instrument_name": "Synth Brass 1",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 63,
+      "instrument_name": "Synth Brass 2",
+      "family_index": 7,
+      "family_name": "Brass"
+    },
+    {
+      "program_number": 64,
+      "instrument_name": "Soprano Sax",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 65,
+      "instrument_name": "Alto Sax",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 66,
+      "instrument_name": "Tenor Sax",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 67,
+      "instrument_name": "Baritone Sax",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 68,
+      "instrument_name": "Oboe",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 69,
+      "instrument_name": "English Horn",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 70,
+      "instrument_name": "Bassoon",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 71,
+      "instrument_name": "Clarinet",
+      "family_index": 8,
+      "family_name": "Reed"
+    },
+    {
+      "program_number": 72,
+      "instrument_name": "Piccolo",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 73,
+      "instrument_name": "Flute",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 74,
+      "instrument_name": "Recorder",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 75,
+      "instrument_name": "Pan Flute",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 76,
+      "instrument_name": "Blown bottle",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 77,
+      "instrument_name": "Shakuhachi",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 78,
+      "instrument_name": "Whistle",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 79,
+      "instrument_name": "Ocarina",
+      "family_index": 9,
+      "family_name": "Pipe"
+    },
+    {
+      "program_number": 80,
+      "instrument_name": "Lead 1 (square)",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 81,
+      "instrument_name": "Lead 2 (sawtooth)",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 82,
+      "instrument_name": "Lead 3 (calliope)",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 83,
+      "instrument_name": "Lead 4 chiff",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 84,
+      "instrument_name": "Lead 5 (charang)",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 85,
+      "instrument_name": "Lead 6 (voice)",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 86,
+      "instrument_name": "Lead 7 (fifths)",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 87,
+      "instrument_name": "Lead 8 (bass + lead)",
+      "family_index": 10,
+      "family_name": "Synth Lead"
+    },
+    {
+      "program_number": 88,
+      "instrument_name": "Pad 1 (new age)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 89,
+      "instrument_name": "Pad 2 (warm)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 90,
+      "instrument_name": "Pad 3 (polysynth)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 91,
+      "instrument_name": "Pad 4 (choir)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 92,
+      "instrument_name": "Pad 5 (bowed)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 93,
+      "instrument_name": "Pad 6 (metallic)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 94,
+      "instrument_name": "Pad 7 (halo)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 95,
+      "instrument_name": "Pad 8 (sweep)",
+      "family_index": 11,
+      "family_name": "Synth Pad"
+    },
+    {
+      "program_number": 96,
+      "instrument_name": "FX 1 (rain)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 97,
+      "instrument_name": "FX 2 (soundtrack)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 98,
+      "instrument_name": "FX 3 (crystal)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 99,
+      "instrument_name": "FX 4 (atmosphere)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 100,
+      "instrument_name": "FX 5 (brightness)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 101,
+      "instrument_name": "FX 6 (goblins)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 102,
+      "instrument_name": "FX 7 (echoes)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 103,
+      "instrument_name": "FX 8 (sci-fi)",
+      "family_index": 12,
+      "family_name": "Synth Effects"
+    },
+    {
+      "program_number": 104,
+      "instrument_name": "Sitar",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 105,
+      "instrument_name": "Banjo",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 106,
+      "instrument_name": "Shamisen",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 107,
+      "instrument_name": "Koto",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 108,
+      "instrument_name": "Kalimba",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 109,
+      "instrument_name": "Bagpipe",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 110,
+      "instrument_name": "Fiddle",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 111,
+      "instrument_name": "Shanai",
+      "family_index": 13,
+      "family_name": "Ethnic"
+    },
+    {
+      "program_number": 112,
+      "instrument_name": "Tinkle Bell",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 113,
+      "instrument_name": "Agogo",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 114,
+      "instrument_name": "Steel Drums",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 115,
+      "instrument_name": "Woodblock",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 116,
+      "instrument_name": "Taiko Drum",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 117,
+      "instrument_name": "Melodic Tom",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 118,
+      "instrument_name": "Synth Drum",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 119,
+      "instrument_name": "Reverse Cymbal",
+      "family_index": 14,
+      "family_name": "Percussive"
+    },
+    {
+      "program_number": 120,
+      "instrument_name": "Guitar Fret Noise",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    },
+    {
+      "program_number": 121,
+      "instrument_name": "Breath Noise",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    },
+    {
+      "program_number": 122,
+      "instrument_name": "Seashore",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    },
+    {
+      "program_number": 123,
+      "instrument_name": "Bird Tweet",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    },
+    {
+      "program_number": 124,
+      "instrument_name": "Telephone Ring",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    },
+    {
+      "program_number": 125,
+      "instrument_name": "Helicopter",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    },
+    {
+      "program_number": 126,
+      "instrument_name": "Applause",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    },
+    {
+      "program_number": 127,
+      "instrument_name": "Gunshot",
+      "family_index": 15,
+      "family_name": "Sound Effects"
+    }
+  ],
+  "special": {
+    "drums": {
+      "instrument_key": "drums",
+      "family_name": "Drums",
+      "program_number": null,
+      "instrument_name": "Drums",
+      "note": "General MIDI percussion is usually assigned to channel 10."
+    }
+  }
+}

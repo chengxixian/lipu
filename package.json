@@ -1,0 +1,17 @@
+{
+  "name": "jianpu2staff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "简谱识谱机 —— 自动识别简谱并转换成五线谱（命令行/库部分）",
+  "type": "module",
+  "bin": { "jianpu": "cli.js" },
+  "scripts": {
+    "test": "node --test",
+    "convert": "node cli.js",
+    "samples": "node test/make-samples.mjs"
+  },
+  "keywords": ["jianpu", "numbered-musical-notation", "omr", "musicxml", "midi", "staff"],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

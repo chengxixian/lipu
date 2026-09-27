@@ -1,0 +1,12 @@
+{
+  "name": "piano-crnn-probe",
+  "private": true,
+  "type": "module",
+  "description": "ByteDance 钢琴 CRNN（ONNX）准确率/速度探针：跑 --help 看用法",
+  "scripts": {
+    "start": "node probe.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.20.1"
+  }
+}
